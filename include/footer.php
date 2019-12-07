@@ -22,7 +22,7 @@
         </div>
 
 
-        <div class="col-sm-12 col-md-4 section-md-t3">
+        <!-- <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
               <h3 class="w-title-a text-brand">Latest Post</h3>
@@ -52,7 +52,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
         <div class="col-sm-12 col-md-4 section-md-t3">
@@ -63,22 +63,22 @@
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Dhaka</a>
+                  <i class="fa fa-angle-right"></i> <a href="property-grid.php?location=Dhaka">Dhaka</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Rajshahi</a>
+                  <i class="fa fa-angle-right"></i> <a href="property-grid.php?location=Rajshahi">Rajshahi</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Chittagong</a>
+                  <i class="fa fa-angle-right"></i> <a href="property-grid.php?location=Chittagong">Chittagong</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Barishal</a>
+                  <i class="fa fa-angle-right"></i> <a href="property-grid.php?location=Barishal">Barishal</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Sylhet</a>
+                  <i class="fa fa-angle-right"></i> <a href="property-grid.php?location=Sylhet">Sylhet</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="fa fa-angle-right"></i> <a href="#">Rangpur</a>
+                  <i class="fa fa-angle-right"></i> <a href="property-grid.php?location=Rangpur">Rangpur</a>
                 </li>
               </ul>
             </div>
@@ -96,19 +96,19 @@
           <nav class="nav-footer">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">Home</a>
+                <a href="index.php">Home</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="about.php">About</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Property</a>
+                <a href="property-grid.php">Property</a>
               </li>
-              <li class="list-inline-item">
+              <!-- <li class="list-inline-item">
                 <a href="#">Blog</a>
-              </li>
+              </li> -->
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="contact.php">Contact</a>
               </li>
             </ul>
           </nav>
@@ -174,7 +174,7 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/scrollreveal/scrollreveal.min.js"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <!-- <script src="contactform/contactform.js"></script> -->
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>

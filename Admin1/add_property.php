@@ -5,12 +5,12 @@ include'include/config.php';
 if(isset($submit))
 {
 
-$file=$_FILES['file']['name'];
+$file=rand(100,1000).$_FILES['file']['name'];
   $status = '';
   $query="insert into properties values('','$Location','$title','$property_type','$status','$area','$bedroom','$bathroom','$garage','$price','$description','$add','$video','$location','$file')";  
   $r=mysqli_query($con,$query);
 
-  move_uploaded_file($_FILES['file']['tmp_name'],"images/property_image/".$_FILES['file']['name']); 
+  move_uploaded_file($_FILES['file']['tmp_name'],"images/property_image/".$file); 
 
 if($r)
 {

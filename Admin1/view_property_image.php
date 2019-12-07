@@ -80,13 +80,14 @@ $query1=mysqli_query($con,"select * from Documents");
 while($res=mysqli_fetch_array($query1))
 {
 
-$image_id=$res['PropertyId'];
+$image_id=$res['DocumentId'];
+$property_id = $res['PropertyId'];
 $img1=$res['Src1'];
 $img2=$res['Src2'];
 $img3=$res['Src3'];
 $img4=$res['Src4'];  
 
-$query=mysqli_query($con,"select * from properties where PropertyId='$image_id'");
+$query=mysqli_query($con,"select * from properties where PropertyId='$property_id'");
 $res1=mysqli_fetch_array($query);
 
 ?>

@@ -59,12 +59,21 @@
           include'include/config.php';
           //for total count data
           $limit = 6;
-          if (isset($_GET["property_type"]) && $_GET["property_type"] != "All") { $property_type  = "where PropertyType='".$_GET["property_type"]."'"; } else { $property_type=''; }; 
-          if (isset($_GET["location"])) { $property_type  = "where Location='".$_GET["location"]."'"; } else { $property_type=''; }; 
+          $property_type = '';
+          if (isset($_GET["property_type"]) && $_GET["property_type"] != "All") 
+          { 
+            $property_type  = "where PropertyType='".$_GET["property_type"]."'"; 
+          } 
+          else 
+          { 
+            $property_type=''; 
+          } 
+          if (isset($_GET["location"])) { $property_type  = "where Location='".$_GET["location"]."'"; }
           $countSql = "SELECT COUNT(PropertyId) FROM properties $property_type";  
           $tot_result = mysqli_query($con, $countSql);  
           $row = mysqli_fetch_row($tot_result);  
-          $total_records = $row[0];  
+          $total_records = $row[0]; 
+          
           $total_pages = ceil($total_records / $limit);
 
 
@@ -93,6 +102,10 @@
             $query=mysqli_query($con,"SELECT * FROM properties $property_type ORDER BY PropertyId ASC LIMIT $start_from, $limit");
           }
           // print_r($query);
+          if ($total_records <=0){
+            echo "<h1>No Property found!!!</h1>";
+          }
+          
           while($res= mysqli_fetch_assoc($query))
           {
           $id=$res['PropertyId'];
@@ -108,7 +121,7 @@
         <div class="col-md-4">
           <div class="card-box-a card-shadow">
             <div class="img-box-a">
-              <img src="img/a.jpg" alt="" class="img-a img-fluid" style="height:300px;width:100%;">
+              <img src="admin1/images/property_image/<?php echo $img ?>" alt="" class="img-a img-fluid" style="height:300px;width:100%;">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">

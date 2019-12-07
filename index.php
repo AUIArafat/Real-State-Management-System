@@ -117,11 +117,11 @@
             <div class="card-body-c">
               
             </div>
-            <!-- <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Read more
+            <div class="card-footer-c">
+              <a href="property-lifestyle.php" class="link-c link-icon">Read more
                 <span class="ion-ios-arrow-forward"></span>
               </a>
-            </div> -->
+            </div>
           </div>
         </div>
         <div class="col-md-4">
@@ -137,11 +137,11 @@
             <div class="card-body-c">
               
             </div>
-            <!-- <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Read more
+            <div class="card-footer-c">
+              <a href="property-loan.php" class="link-c link-icon">Read more
                 <span class="ion-ios-arrow-forward"></span>
               </a>
-            </div> -->
+            </div>
           </div>
         </div>
         <div class="col-md-4">
@@ -157,11 +157,11 @@
             <div class="card-body-c">
               
             </div>
-            <!-- <div class="card-footer-c">
-              <a href="#" class="link-c link-icon">Read more
+            <div class="card-footer-c">
+              <a href="property-sell.php" class="link-c link-icon">Read more
                 <span class="ion-ios-arrow-forward"></span>
               </a>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -212,7 +212,7 @@
 
 
             <div class="img-box-a">
-              <img src="img/a.jpg" alt="" class="img-a img-fluid" style="height:280px;width:100%;">
+              <img src="admin1/images/property_image/<?php echo $img ?>" alt="" class="img-a img-fluid" style="height:280px;width:100%;">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
@@ -333,17 +333,17 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+      <div class="col-md-4">
           <div class="card-box-d">
-            <div class="card-img-d">
-              <img src="img/z.jpg" alt="" class="img-d img-fluid" style="height:330px;width:95%;">
+            <div class="card-img-d" style="height: 400px;width: 100%;">
+              <img src="img/bb.jpg" style="height:100%;width:100% !important;" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">MD.
-                      <br>Kamal</a>
+                    <a href="agent-single-1.php" class="link-two">
+                      <br>Nasimun Islam</a>
                   </h3>
                 </div>
               </div>
@@ -351,16 +351,16 @@
                 
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945234</p>
+                    <strong>Phone: </strong> 01620769032</p>
                   <p>
-                    <strong>Email: </strong> agents1@example.com</p>
+                    <strong>Email: </strong> hridoylx4@gmail.com</p>
                 </div>
               </div>
               <div class="card-footer-d">
                 <div class="socials-footer d-flex justify-content-center">
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="link-one">
+                      <a href="https://m.me/nasimun.hridoy?fbclid=IwAR1RJA8JamXtS5J4FjJuFGdwhVz_FYT065S3brkq_AUC88TrVXitg6P08Zk" class="link-one">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>
@@ -392,32 +392,32 @@
         </div>
         <div class="col-md-4">
           <div class="card-box-d">
-            <div class="card-img-d">
-              <img src="img/x.jpg" alt="" class="img-d img-fluid" style="height:330px;width:95%;">
+            <div class="card-img-d" style="height: 400px;width: 100%;">
+              <img src="img/k.jpg" style="height:100%;width:100% !important;" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">MD.
-                      <br>Jamal</a>
+                    <a href="agent-single-2.php" class="link-two">MD.
+                      <br>Aktharuzzaman Dewan</a>
                   </h3>
                 </div>
               </div>
               <div class="card-body-d">
-               
+                
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945235</p>
+                    <strong>Phone: </strong> 01773116240</p>
                   <p>
-                    <strong>Email: </strong> agents2@example.com</p>
+                    <strong>Email: </strong> repondewan2026@gmail.com</p>
                 </div>
               </div>
               <div class="card-footer-d">
                 <div class="socials-footer d-flex justify-content-center">
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="link-one">
+                      <a href="https://www.facebook.com/photo.php?fbid=582591202173542&set=a.123130051452995&type=3" class="link-one">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>
@@ -449,15 +449,15 @@
         </div>
         <div class="col-md-4">
           <div class="card-box-d">
-            <div class="card-img-d">
-              <img src="img/g.jpg" alt="" class="img-d img-fluid" style="height:330px;width:95%;">
+            <div class="card-img-d" style="height: 400px;width: 100%;">
+              <img src="img/i.jpg" style="height:100%;width:100% !important;" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">MD.
-                      <br>Karim</a>
+                    <a href="agent-single-3.php" class="link-two">
+                      <br>Ali Hossain</a>
                   </h3>
                 </div>
               </div>
@@ -465,16 +465,16 @@
                 
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945236</p>
+                    <strong>Phone: </strong> 01739032801</p>
                   <p>
-                    <strong>Email: </strong> agents3@example.com</p>
+                    <strong>Email: </strong> mdhossainali35671@gmail.com</p>
                 </div>
               </div>
               <div class="card-footer-d">
                 <div class="socials-footer d-flex justify-content-center">
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="link-one">
+                      <a href="https://www.facebook.com/photo.php?fbid=2394603780819483&set=a.2394603807486147&type=3" class="link-one">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>

@@ -58,7 +58,7 @@ $res1=mysqli_fetch_array($query);
                      <li>
                         <a href="view_property_image.php" class="menu-toggle">
                             <i class="material-icons">home</i>
-                            <span>Add Property Images</span>
+                            <span>View Property Images</span>
                         </a>
                     </li>
 
@@ -74,7 +74,7 @@ $res1=mysqli_fetch_array($query);
                     
                     
                     <li>
-                        <a href="javascript:void(0);" class="menu-toggle">
+                        <a href="comments.php" class="menu-toggle">
                             <i class="material-icons">content_copy</i>
                             <span>Comments</span>
                         </a>
@@ -91,13 +91,13 @@ $res1=mysqli_fetch_array($query);
             <!-- #Menu -->
             
 			<!-- Footer -->
-            <div class="legal">
+            <!-- <div class="legal">
                 <div class="copyright">
                     &copy; 2016 - 2017 <a href="javascript:void(0);">AdminBSB - Material Design</a>.
                 </div>
                 <div class="version">
                     <b>Version: </b> 1.0.5
                 </div>
-            </div>
+            </div> -->
             <!-- #Footer -->
         </aside>

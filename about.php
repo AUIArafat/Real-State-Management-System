@@ -110,8 +110,8 @@
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">MD.
-                      <br>Sharif Ahmed</a>
+                    <a href="agent-single.html" class="link-two">
+                      <br>Nasimun Islam</a>
                   </h3>
                 </div>
               </div>
@@ -119,16 +119,16 @@
                 
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945237</p>
+                    <strong>Phone: </strong> 01620769032</p>
                   <p>
-                    <strong>Email: </strong> agents4@example.com</p>
+                    <strong>Email: </strong> hridoylx4@gmail.com</p>
                 </div>
               </div>
               <div class="card-footer-d">
                 <div class="socials-footer d-flex justify-content-center">
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="link-one">
+                      <a href="https://m.me/nasimun.hridoy?fbclid=IwAR1RJA8JamXtS5J4FjJuFGdwhVz_FYT065S3brkq_AUC88TrVXitg6P08Zk" class="link-one">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>
@@ -168,7 +168,7 @@
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
                     <a href="agent-single.html" class="link-two">MD.
-                      <br>Helal Khan</a>
+                      <br>Aktharuzzaman Dewan</a>
                   </h3>
                 </div>
               </div>
@@ -176,16 +176,16 @@
                 
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945238</p>
+                    <strong>Phone: </strong> 01773116240</p>
                   <p>
-                    <strong>Email: </strong> agents5@example.com</p>
+                    <strong>Email: </strong> repondewan2026@gmail.com</p>
                 </div>
               </div>
               <div class="card-footer-d">
                 <div class="socials-footer d-flex justify-content-center">
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="link-one">
+                      <a href="https://www.facebook.com/photo.php?fbid=582591202173542&set=a.123130051452995&type=3" class="link-one">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>
@@ -224,8 +224,8 @@
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">MD.
-                      <br>Arafat Hossain</a>
+                    <a href="agent-single.html" class="link-two">
+                      <br>Ali Hossain</a>
                   </h3>
                 </div>
               </div>
@@ -233,16 +233,16 @@
                 
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945239</p>
+                    <strong>Phone: </strong> 01739032801</p>
                   <p>
-                    <strong>Email: </strong> agents@6example.com</p>
+                    <strong>Email: </strong> mdhossainali35671@gmail.com</p>
                 </div>
               </div>
               <div class="card-footer-d">
                 <div class="socials-footer d-flex justify-content-center">
                   <ul class="list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="link-one">
+                      <a href="https://www.facebook.com/photo.php?fbid=2394603780819483&set=a.2394603807486147&type=3" class="link-one">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>

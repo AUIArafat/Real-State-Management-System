@@ -5,18 +5,18 @@ include'include/config.php';
 if(isset($submit))
 {
 
-  $file=$_FILES['file']['name'];
-  $file1=$_FILES['file1']['name'];
-  $file2=$_FILES['file2']['name'];
-  $file3=$_FILES['file3']['name'];
+  $file=rand(1,100).$property_id."-".$_FILES['file']['name'];
+  $file1=rand(101,200).$property_id."-".$_FILES['file1']['name'];
+  $file2=rand(201,300).$property_id."-".$_FILES['file2']['name'];
+  $file3=rand(301,400).$property_id."-".$_FILES['file3']['name'];
   
   $query="insert into Documents values('','$file','$file1','$file2','$file3','$property_id')";  
     print_r($query);
   mysqli_query($con,$query);
-  move_uploaded_file($_FILES['file']['tmp_name'],"images/property_image/".$_FILES['file']['name']); 
-  move_uploaded_file($_FILES['file1']['tmp_name'],"images/property_image/".$_FILES['file1']['name']); 
-  move_uploaded_file($_FILES['file2']['tmp_name'],"images/property_image/".$_FILES['file2']['name']); 
-  move_uploaded_file($_FILES['file3']['tmp_name'],"images/property_image/".$_FILES['file3']['name']); 
+  move_uploaded_file($_FILES['file']['tmp_name'],"images/property_image/".$file); 
+  move_uploaded_file($_FILES['file1']['tmp_name'],"images/property_image/".$file1); 
+  move_uploaded_file($_FILES['file2']['tmp_name'],"images/property_image/".$file2); 
+  move_uploaded_file($_FILES['file3']['tmp_name'],"images/property_image/".$file3); 
 
    $msg='<div class="alert alert-success alert-dismissible">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>

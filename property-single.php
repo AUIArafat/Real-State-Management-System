@@ -23,7 +23,24 @@ $garage = $res['Garage'];
 $property_type = $res['PropertyType'];
 $status = $res['Status'];
 $map = $res['LocationLink'];
+$msg='';
+if(isset($_REQUEST['msg'])){
+  if($_REQUEST['msg'] == '1')
+  {
+  $msg='<div class="alert alert-success alert-dismissible">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>Success!</strong> Query sent to the agent successfully.
+  </div>';    
+  }
+  else
+  {
+  $msg='<div class="alert alert-danger alert-dismissible">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>Failed!</strong> Failed to send query!!!
+  </div>';
 
+  }
+}
 ?>
 <!-- main header end -->
   <!--/ Intro Single star /-->
@@ -202,16 +219,16 @@ $map = $res['LocationLink'];
           <!-- https://player.vimeo.com/video/73221098 -->
           <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
-              <iframe src="<?php echo $video ?>" width="100%" height="460" frameborder="0"
-                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <!-- <iframe src="" width="100%" height="460" frameborder="0"
+                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+                <?php echo $video ?>
             </div>
             <div class="tab-pane fade" id="pills-plans" role="tabpanel" aria-labelledby="pills-plans-tab">
               <img src="img/plan2.jpg" alt="" class="img-fluid">
             </div>
             <!-- https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes+Square!5e0!3m2!1ses-419!2sve!4v1510329142834 -->
             <div class="tab-pane fade" id="pills-map" role="tabpanel" aria-labelledby="pills-map-tab">
-              <iframe src="<?php echo $map ?>"
-                width="100%" height="460" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <?php echo $map ?>
             </div>
           </div>
         </div>
@@ -282,17 +299,18 @@ $map = $res['LocationLink'];
             </div> -->
             <div class="col-md-12 col-lg-4">
               <div class="property-contact">
-                <form class="form-a" >
+              <?php echo $msg ?>
+                <form class="form-a" action="include/send_query.php">
                   <div class="row">
                     <div class="col-md-12 mb-1">
                       <div class="form-group">
-                        <input type="text" class="form-control form-control-lg form-control-a" id="inputName"
+                        <input type="text" class="form-control form-control-lg form-control-a" id="inputName" name="input_name"
                           placeholder="Name *" required>
                       </div>
                     </div>
                     <div class="col-md-12 mb-1">
                       <div class="form-group">
-                        <input type="email" class="form-control form-control-lg form-control-a" id="inputEmail1"
+                        <input type="email" class="form-control form-control-lg form-control-a" id="inputEmail1" name="input_email"
                           placeholder="Email *" required>
                       </div>
                     </div>
@@ -302,8 +320,9 @@ $map = $res['LocationLink'];
                           rows="8" required></textarea>
                       </div>
                     </div>
+                    <input type="hidden" value="<?php echo $id ?>" name="id">
                     <div class="col-md-12">
-                      <button type="submit" class="btn btn-a">Send Message</button>
+                      <button type="submit" class="btn btn-a" name="submit">Send Message</button>
                     </div>
                   </div>
                 </form>

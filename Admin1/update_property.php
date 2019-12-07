@@ -184,7 +184,7 @@ echo"<script>window.location.href='view_property.php';</script>";
                                     <div class="col-lg-6 col-md-3 col-sm-3 col-xs-6">
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="text" class="form-control" value="<?php echo $res['VideoLink'];?>" required name="video">
+                                                <input type="text" class="form-control" value='<?php echo $res['VideoLink'];?>' required name="video">
                                                 <label class="form-label">Add Video Link</label>
                                             </div>
                                         </div>
@@ -193,7 +193,7 @@ echo"<script>window.location.href='view_property.php';</script>";
                                     <div class="col-lg-6 col-md-3 col-sm-3 col-xs-6">
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="text" class="form-control" value="<?php echo $res['LocationLink'];?>" required name="location">
+                                                <input type="text" class="form-control" value='<?php echo $res['LocationLink'];?>' required name="location">
                                                 <label class="form-label">Add Location Link</label>
                                             </div>
                                         </div>
